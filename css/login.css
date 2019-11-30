@@ -1,0 +1,37 @@
+
+.login-box {
+	width: 90%;
+    margin-top: 20px;
+    background:coral;
+    border-radius: 20px
+
+
+}
+.login-logo a, .register-logo a {
+    color: lightyellow;
+}
+.login-box-body, .register-box-body {
+    background: #eaeaea;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    border-radius: 0px
+}
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.login-logo, .register-logo {
+    font-size: 35px;
+
+    text-align: center;
+    margin-bottom: auto;
+    font-weight: 300;
+}
+
+.padimg {
+    padding: 12px;
+    background: #337ab7;
+}

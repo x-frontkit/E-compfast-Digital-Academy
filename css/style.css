@@ -1,0 +1,73 @@
+
+h1, h2, h3 {
+
+text-transform: uppercase;
+
+}
+
+#t { text-align: justify; 
+line-height:1.7;
+
+}
+
+li {
+
+font-size: 12px;
+margin-bottom; 5px
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+
+#t h1,  {
+font-size: 13px;
+text-transform: uppercase;
+
+}
+
+
+#t p {
+font-size: 12px;
+
+}
+
+#t h2 {
+font-size: 13px;
+text-align: left;
+border-bottom: 
+5px double #6495ED; 
+margin-bottom:18px;
+color: #6495ED
+
+}
+
+#t h3 {
+font-size: 12px;
+text-align: left;
+border-bottom: 
+5px double #bfafaf; 
+color: #bfafaf
+
+}
+
+img { 
+
+width:100%;
+
+}
+.arab { 
+font-size:25px;
+line-height: 2;
+direction:rtl;
+text-align:justify
+
+}
+
+#theList li a, #theList li.ui-li-divider {
+    text-align: center !important;
+}
