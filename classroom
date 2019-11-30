@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta charset="utf-8" />
+<meta content='width=device-width' name='viewport'/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet"  href="css/jquery.mobile-1.3.2.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+<script src="js/index.js"></script>
+    
+
+<title>Facebook Ads Mastery</title>
+<meta content='Facebook Ads Mastery' name='keywords'/>
+</head>
+<body>
+
+     
+<!-------hompage start----->
+
+<div data-role="page" id="page" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+<h1>Table of Contents</h1>
+</div>
+
+<div data-role="content">
+    <ul data-role="listview" data-autodividers="false" data-inset="true" data-filter="true"data-filter-placeholder="Search Contents">
+
+<!------Add Listview 1---->
+
+<li data-theme="c"><a href="#page1" data-transition="flow">
+            <h3>Panduan Facebook Ads #1</h3><P>Panduan Facebook Ads Untuk Pemula</P></a><a href="#page1" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 1---->
+
+<!------Add Listview 2---->
+
+<li data-theme="c"><a href="#page2" data-transition="flow">
+            <h3>Panduan Facebook Ads #2</h3><P>Cara Membuat Iklan di Facebook</P></a><a href="#page2" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 2---->
+
+
+<!------Add Listview 3---->
+
+<li data-theme="c"><a href="#page3" data-transition="flow">
+            <h3>Panduan Facebook Ads #3</h3><P>Cara Membuat Halaman Fanspage di Facebook</P></a><a href="#page3" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 3---->
+
+<!------Add Listview 4---->
+
+<li data-theme="c"><a href="#page4" data-transition="flow">
+            <h3>Panduan Facebook Ads #4</h3><P>Cara Pasang Iklan Facebook</P></a><a href="#page4" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 4---->
+
+<!------Add Listview 5---->
+
+<li data-theme="c"><a href="#page5" data-transition="flow">
+            <h3>Panduan Facebook Ads #5</h3><P>Cara Menambahkan Metode Pembayaran Iklan</P></a><a href="#page5" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 5---->
+
+<!------Add Listview 6------>
+
+<li data-theme="c"><a href="#page6" data-transition="flow">
+            <h3>Panduan Facebook Ads #6</h3><P>Memasang Piksel Facebook untuk Pelacakan Tindakan</P></a><a href="#page6" data-transition="flow"></a> 
+</li>
+
+<!------Ending Listview 6----->
+
+</ul>
+          
+         </div>
+ 
+<div data-role="footer" data-position="right" data-tap-toggle="false" data-theme="c">
+<p><button type="button" id="btn-logout" class="btn btn-default btn-block btn-flat" onclick="logout();"><i class="material-icons">
+exit_to_app
+</i></button></p>
+</div>
+
+<center>
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<p><a href="https://e-compfast.blogspot.com/">&#169; E-compfast Digital Indonesia</a></p>
+</div>
+</center>
+
+
+
+</div>
+
+<!-------hompage end----->
+
+
+<!--=====header======-->
+<div data-role="page" id="page1" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Pengantar</h1>
+</div>
+<!--=====header end======-->
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Panduan Facebook Ads untuk  Pemula</h2>
+<p>
+Dalam ketatnya persaingan bisnis online saat ini, Anda membutuhkan lebih dari satu 
+marketing channel agar dapat sukses. Salah satu yang layak Anda coba adalah 
+Facebook Ads.<br/><br/>
+Mungkin sebelumnya Anda pernah mencoba menggunakan Facebook untuk 
+memasarkan produk dan layanan Anda. Cara ini memang cukup efektif untuk bisnis 
+karena Anda dapat menemukan bermacam-macam orang, komunitas, maupun forum 
+sekaligus. Facebook ibarat katalog yang bisa Anda akses kapan saja untuk 
+menemukan calon pelanggan yang tepat bagi bisnis Anda.<br/><br/>
+Hanya saja, Anda tidak serta-merta dapat menampilkan produk/layanan Anda begitu 
+saja. Ada keterbatasan yang tidak bisa Anda tembus, misalnya jumlah maksimal 
+teman, akses ke grup tertentu, postingan hanya dapat dilihat follower, dan lain-lain.<br/><br/>
+Facebook Ads memberikan solusi bagi Anda yang ingin menggunakan Facebook untuk 
+bisnis. Anda dapat melebarkan jangkauan seluas-luasnya, bukan hanya sebatas
+follower maupun orang-orang yang me-like Facebook Page Anda.
+<br/><br/>
+Anda bisa menargetkan siapapun yang menggunakan Facebook!
+Saat ini Facebook memiliki lebih dari 2 miliar pengguna di seluruh dunia. Para 
+pengguna inilah yang nantinya berpeluang Anda jadikan pangsa produk dan layanan 
+Anda. <br/><br/>
+Untuk memulai, ada beberapa hal yang perlu Anda persiapkan.</p>
+<ul>
+<li>
+Akun Facebook</li>
+<li>
+Facebook Fan Page</li>
+<li>
+Kartu kredit / Rekening bank
+</li>
+<li>
+Produk yang akan diiklankan
+</li>
+<li>Website</li>
+</ul>
+<p>Jadi bagaimana, siap sukses dengan Facebook Ads ? Simak panduan Facebook Ads 
+untuk Pemula yang kami sajikan terlebih dahulu ya. 
+</p>
+<br/>
+<p>Salam Sukses,<br/><br/>
+
+<b>Developer Website</b></br>
+<a href="../external.html?link=https://e-compfast.blogspot.com/">Alam Santiko wibowo</a>
+</p>
+</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div>
+</div>
+<!--=======end pages======-->
+
+
+
+<!--=====header======-->
+<div data-role="page" id="page2" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Membuat Iklan</h1>
+</div>
+<!--=====header end======-->
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Pengertian Facebook Ads</h2>
+<p>
+Facebook Ads adalah layanan milik situs jejaring Facebook untuk mengiklankan serta 
+mempromosikan suatu Fan Page. Sebagai pemasang iklan, Anda dapat menentukan 
+sendiri jangkauan yang Anda inginkan agar postingan yang Anda iklankan tepat 
+sasaran.<br/><br/>
+Facebook Ads sangat cocok untuk Anda yang memiliki usaha kecil, menengah 
+maupun usaha berskala besar.
+Menariknya lagi, Facebook Ads tidak memerlukan keahlian khusus. Semua orang bisa 
+menggunakannya dengan mudah, bahkan pengguna awam sekalipun.<br/></p>
+<h2><b>
+Siapa yang Bisa Anda Targetkan Menggunakan Facebook Ads ?</b></h2>
+<p>Siapa saja. Anda dapat menjangkau serta menargetkan orang-orang yang memiliki 
+ketertarikan terhadap postingan yang Anda bagikan. 
+Saat ini Facebook setidaknya digunakan oleh dua miliar orang di seluruh dunia. Anda 
+bisa menentukan siapa saja yang dapat melihat iklan Anda berdasarkan demografi, 
+perilaku, maupun informasi kontak spesifik yang mereka miliki.
+<br/><br/>
+Misalkan Anda memiliki produk makanan burung. Tentu produk Anda memiliki peluang 
+laku keras jika dipasarkan di segmen pehobi burung, bukan? Nah, dengan 
+menggunakan Facebook Ads, iklan Anda akan ditampilkan pada orang-orang yang 
+memiliki ketertarikan pada produk Anda.
+Dengan beriklan di Facebook, Anda bisa mendapatkan orang yang tepat. Semakin 
+Anda mendapatkan perhatian mereka, sehingga besar kemungkinan mereka membeli 
+produk Anda.
+<br/></p>
+<h2>
+Retargeting</h2>
+<p>Hal menarik lain dari Facebook Ads adalah fitur retargeting. Ada dapat menentukan 
+pemirsa iklan Anda berdasarkan data pemirsa (alamat email, nomor telepon, dan lain-
+lain), pengunjung website, pengguna aplikasi, bahkan orang yang pernah berinteraksi 
+dengan konten Anda di Facebook.
+Mungkin Anda pernah mengakses website seperti Tokopedia atau Bukalapak, 
+kemudian, setelah itu Anda membuka Facebook dan tampil iklan layanan mereka,
+<br/><br/>
+menampilkan barang yang sebelumnya Anda cari di sana. Ini adalah contoh jenis 
+retargeting Lalu Lintas Situs Web.
+Fitur retargeting inilah yang semakin menjadikan Facebook Ads tepat bagi bisnis 
+online. Anda dapat mengiklankan produk apa saja, kapanpun Anda inginkan.
+<br/></p>
+<h2>Cara Membuat Iklan Facebook
+</h2>
+<p>Untuk membuat iklan di Facebook, dapat melalui tiga cara:
+<ol>
+<li>
+Membuat iklan dari Pengelola Iklan/Ads Manager.</li>
+<li>
+Membuat iklan dari Halaman Facebook atau Facebook Fan Page.</li>
+<li>
+Membuat iklan di Power Editor.</li>
+</ol>
+<p>Dalam ebook panduan ini, kami menggunakan cara pertama. Ini merupakan cara
+paling lazim serta paling mudah untuk mulai beriklan di Facebook Ads. 
+Anda sudah siap ? Simak terus panduan kami berikut ini, ya! 
+</p>
+
+</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div>
+</div>
+<!--=======end pages======-->
+
+
+<!--=====header======-->
+<div data-role="page" id="page3" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Membuat Fanspage</h1>
+</div>
+<!--=====header end======-->
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Cara Membuat Halaman Facebook</h2>
+<p>
+Sebelum mulai memasang iklan di Facebook, Anda harus memiliki sebuah Halaman 
+Facebook atau Facebook Fan Page terlebih dahulu. Jika Anda belum memiliki 
+Halaman Facebook, Anda dapat mengikuti langkah berikut ini untuk membuatnya.
+Tapi, jika Anda sudah memiliki Halaman Facebook, silakan lanjut ke langkah 3 untuk 
+mulai membuat iklan Facebook.
+<ol>
+
+<li>
+Silakan akses URL berikut ini: <br/><a href="../external.html?link=https://www.facebook.com/pages/create/">https://www.facebook.com/pages/create/</a> kemudian 
+pilih jenis halaman yang menggambarkan bisnis Anda. Dalam tutorial ini kami memilih <b>
+Perusahaan, Organisasi, atau Institusi .</b><br/><br/>
+<img src="gambar/buat-halaman.png"/>
+</li>
+<br/><br/>
+<li>
+Pilih <b>kategori</b> dan masukkan 
+nama perusahaan Anda, kemudian 
+klik tombol<b> Memulai. </b><br/><br/>
+<img src="gambar/kategori-perusahaan.png"/>
+</li>
+
+<li>
+Masukkan Foto Profil untuk 
+halaman Facebook Anda.  <br/><br/>
+<img src="gambar/profile-upload.png"/>
+</li>
+<br/><br/>
+<li>
+Tambahkan Foto Sampul halaman Facebook Anda <br/><br/>
+<img src="gambar/add-cover.png"/>
+</li>
+<br/><br/>
+<li>
+Selanjutnya Anda dapat mengundang teman untuk menyukai Halaman Facebook 
+Anda, atau melewatinya dengan menekan tombol <b>Skip.
+</b> <br/><br/>
+<img src="gambar/invite.png"/>
+</li>
+<br/><br/>
+<li>
+Selamat! Pada langkah ini pembuatan Halaman Facebook Anda sudah selesai. 
+Silakan mulai pasang iklan. 
+</li>
+
+</p>
+</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div>
+</div>
+<!--=======end pages======-->
+
+<!--=====header======-->
+<div data-role="page" id="page4" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Pasang Iklan Facebook</h1>
+</div>
+
+<!--=====header end======-->
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Memulai Pasang Iklan Facebook</h2>
+<p>
+Untuk memasang iklan di Facebook Ads, pastikan anda sudah login di akun 
+Facebook, kemudian silakan buka tautan berikut ini: <br/>
+<a href="../external.html?link=https://www.facebook.com/ads/manager">https://www.facebook.com/ads/manager</a>
+<br/>
+<ol>
+<li>
+Klik tombol<b> Buat Iklan.
+</b><br/><br/>
+<img src="gambar/buat-iklan.png"/>
+</li><br/>
+
+<b><h3>Tentukan Tujuan Marketing</h3></b>
+<p>Silakan pilih tujuan marketing, pada contoh ini kami memilih<b> Lalu Lintas .</b><br/><br/>
+<img src="gambar/tujuan-iklan.png"/>
+<br/>
+</li>
+</p>
+
+
+<p>
+Berikut adalah fungsi dari masing-masing tujuan marketing yang tersedia, silakan pilih 
+yang sesuai dengan kebutuhan dari produk Anda: 
+</p>
+
+<h3>Kesadaran</h3>
+<ul>
+<li><b>Kesadaran Merek : </b>Meningkatkan kesadaran orang yang memiliki ketertarikan 
+pada produk yang Anda miliki.
+ </li>
+<li><b>Kesadaran Lokal :</b> Anda dapat menentukan iklan yang ditujukan ke orang-orang 
+yang satu lokasi dengan bisnis Anda. </li>
+<li><b>Jangkauan :</b> Menampilkan iklan Anda pada jumlah maksimal dari orang sesuai 
+dengan anggaran Anda.
+ </li>
+</ul>
+
+<h3>Pertimbangan</h3>
+<ul>
+<li><b>Lalu lintas :</b> Meningkatkan jumlah kunjungan ke website Anda atau mendapatkan 
+banyak pengguna untuk aplikasi Anda </li>
+<li><b>Interaksi :</b> Pilihan ini tepat jika Anda ingin mendapatkan interaksi pada kiriman, 
+like halaman, tanggapan pada acara yang akan Anda selenggarakan atau untuk 
+promo mengenai produk Anda. </li>
+<li><b>Pemasangan aplikasi :</b> Tujuan iklan ini berguna bagi Anda yang menginginkan 
+orang lain menginstal aplikasi yang Anda buat. </li>
+<li><b>Penayangan video : </b>Jika Anda membuat konten berupa video, pilihan ini harus 
+dipilih untuk mendapatkan lebih banyak orang menonton video yang Anda buat </li>
+<li><b>Pembuatan prospek :</b> Untuk mengumpulkan data dari orang yang memiliki 
+ketertarikan pada produk Anda, data tersebut dapat berupa alamat email.
+ </li>
+</ul>
+
+<h3>Konversi</h3>
+<ul>
+<li><b>Konversi :</b> Untuk Anda yang ingin meningkatkan jumlah orang yang berbelanja 
+dengan melakukan pembelian produk pada website Anda.
+ </li>
+<li><b>Penjualan katalog produk : </b> Menampilkan iklan mengenai produk katalog Anda 
+sesuai dengan target yang ditentukan.
+ </li>
+<li><b>Kunjungan toko : </b> Jika Anda memiliki toko offline atau toko fisik, silakan pilih 
+bagian ini untuk meningkatkan pelanggan mengunjungi toko Anda. </li>
+</ul>
+<br/>
+
+<li>Silahkan klik tombol <b>continue</b><br/>
+<img src="gambar/traffic.png"/><br/>
+</li>
+<h3>Atur Set Iklan</h3>
+<p>Tentukan nama set iklan Anda, pada contoh ini kami membuat nama<b> Iklan Pertamaku.</b>
+<ol>
+<li><b>Kunjungan </b>– Di bagian kunjungan silakan pilih salah satu, kami memilih <b>Situs Web 
+atau Messenger. </b>
+
+</li>
+
+<img src="gambar/iklan-pertama.png"/>
+
+<li>
+<b>Promo </b>– Jika Anda ingin menambahkan promo, silakan aktifkan bagian Promo, dan 
+pilih <b>Pelajari selengkapnya </b>untuk mempelajari lebih detail. Pada langkah ini kami tidak 
+mengaktifkannya. 
+</li>
+<img src="gambar/add-promo.png"/>
+<li><b>Pemirsa </b>– Pada langkah ini silakan tentukan siapa saja yang anda inginkan untuk melihat 
+iklan Anda.
+ </li>
+<img src="gambar/pemirsa.png"/>
+
+<p>Berikut adalah penjelasan detail mengenai <b>Pemirsa</b> dari iklan Anda nantinya, silakan 
+disesuaikan dengan target yang sesuai dengan produk yang Anda miliki:<br/></p>
+<ul>
+
+<li><b>
+Pemirsa Khusus : </b>Menariknya Facebook Ads terdapat fitur untuk menargetkan 
+kepada siapa iklan Anda akan ditampilkan. Anda dapat menggunakan alamat  email, nomor telepon, ID pengguna Facebook, atau ID pengguna aplikasi untuk 
+membuat dan menyimpan pemirsa sebagai target iklan Anda 
+</li><br/>
+
+<li><b>Lokasi :</b> Anda dapat menentukan lokasi dari targetMasukkan satu atau lebih 
+banyak negara, negara bagian/wilayah, kota, kode pos, alamat, atau Designated 
+Market Areas ® untuk menampilkan atau mengecualikan iklan Anda kepada 
+orang dalam lokasi ini. Penargetan lokasi belum tersedia di semua negara </li><br/>
+
+<li><b>Umur : </b>Jika produk yang akan Anda iklankan berdasarkan rentang usia tertentu, 
+Anda dapat memilih target berdasarkan usia, misalnya orang dengan usia 18-35 
+tahun. Silakan disesuaikan dengan produk yang akan Anda iklankan.
+ </li><br/>
+
+<li><b>Jenis Kelamin : </b>Anda juga dapat menentukan iklan yang akan ditampilkan 
+sesuai dengan jenis kelamin, jika produk khusus wanita berarti Anda dapat 
+memilih pilihan khusus wanita saja atau sebaliknya. Selain itu juga dapat dipilih 
+keduanya. </li><br/>
+
+<li><b>Bahasa :</b> Jika Anda sudah memilih satu lokasi dengan bahasa yang sama, 
+biarkan ini kosong kecuali pemirsa yang Anda targetkan menggunakan bahasa 
+yang tidak umum digunakan di lokasi yang telah Anda pilih. </li><br/>
+<li><b>Penargetan Terperinci : </b>Bagian ini untuk target iklan yang lebih rinci, seperti 
+lokasi, minat, perilaku dan kategori lainnya. Silakan untuk memilih yang sesuai 
+dengan produk yang Anda iklankan.
+ </li><br/>
+
+<img src="gambar/penargetan.png"/>
+<li>Koneksi : Pilihan ini berguna jika Anda ingin menampilkan iklan ke orang-orang 
+yang sudah terhubung ke halaman, aplikasi atau acara Anda. Sehingga iklan 
+Anda dapat dilihat oleh orang yang sudah pasti memiliki ketertarikan pada 
+produk Anda. Ini akan mempersempit pemirsa Anda dengan menyertakan 
+orang-orang yang hanya memiliki hubungan khusus tersebut, yang juga 
+memenuhi kategori penargetan lainnya yang telah Anda pilih.
+ </li><br/>
+<img src="gambar/simpan-pemirsa.png"/>
+
+</ul>
+<p>Setelah semua pengaturan sudah Anda tentukan, silakan klik tombol <b>Simpan Pemirsa</b> ini. </p>
+<li><b>Penempatan </b>– Untuk menentukan penempatan iklan Anda yang ingin ditampilkan, 
+disini kami memilih Penempatan Otomatis. Untuk penempatan terdapat dua pilihan: <br/>
+<img src="gambar/penempatan.png"/>
+<ul><br/>
+<li><b>Penempatan Otomatis (Disarankan):
+</b><br/>
+Untuk pilihan ini Anda tidak perlu memilih dimana iklan Anda ingin ditampilkan, 
+secara otomatis Facebook akan menampilkan iklan pada Plaform dengan 
+kinerja paling baik, seperti pada Facebook, Instagram atau Audience Network.
+ </li><br/>
+<li><b>Sunting Penempatan:
+</b><br/>
+Pada pilihan ini Anda dapat menentukan iklan yang akan ditampilkan 
+berdasarkan Jenis Perangkat dan Platform. Misalnya jika Anda ingin iklan 
+tampil pada perangkat tertentu seperti Seluler atau Desktop (disarankan 
+memilih semua perangkat). Untuk Platform berupa Facebook, Instagram dan 
+Audience Network. </li>
+</ul>
+<br/>
+
+<li><b>Anggaran & Jadwal</b>
+<br/>
+Tentukan berapa banyak uang yang ingin Anda belanjakan, dan kapan Anda ingin iklan 
+ditayangkan. Pada contoh ini kami menentukan <b>anggaran harian </b>sebesar Rp 25.000,-
+(harga minimal harian) selama 31 hari dengan total biaya iklan sebesar Rp 775.000,-.
+Silakan sesuaikan dengan anggaran yang Anda miliki. </li><br/>
+<img src="gambar/anggaran-dan-jadwal.png"/><br/>
+<p>Jika Anda menginginkan iklan yang lebih spesifik lagi, silakan pilih <b>Tampilkan Opsi 
+Lanjutan</b> dan lakukan pengaturan sesuai kebutuhan Anda. </p><br/>
+<img src="gambar/anggaran-dan-jadwal.png"/><br/>
+<p>Pada langkah ini proses melakukan <b>Set Iklan </b>sudah selesai, silakan klik tombol 
+<b>
+Lanjutkan </b>untuk ke tahap selanjutnya.
+ </p>
+
+</ol>
+</p>
+</ol>
+
+<h3>Format, Halaman dan Tautan Iklan </h3>
+<img src="gambar/format-iklan.png"/>
+<p>Terdapat lima jenis format iklan yang dapat Anda pilih, yaitu sebagai berikut ini.
+</p>
+<ul>
+<li><b>Karosel </b>– Tampilan iklan dengan 2 atau lebih gambar atau video yang dapat 
+digeser.</li>
+<li><b>Gambar Tunggal </b>– Tampilan iklan dengan 1 gambar.
+</li>
+<li><b>Video Tunggal </b>– Iklan dengan sebuah video.
+</li>
+<li><b>Tayangan Slide</b> – Iklan dengan gambar atau video slide hingga 10 gambar.</li>
+<li><b>Canvas </b>– Iklan dapat berupa gabungan gambar dan video. </li>
+
+</ul>
+<p>Pada tutorial ini kami memilih<b> Format Karosel </b>dengan gambar yang dapat digeser. </p>
+
+<h3>Halaman & Tautan</h3>
+<p>
+<b>
+Hubungkan Halaman Facebook</b> - Silakan pilih Halaman Facebook Anda, jika 
+belum memiliki halaman Facebook silakan buat baru dengan menekan tombol 
+<b>
++. </b><br/><br/>
+<img src="gambar/hubungkan-halaman-facebook.png"/>
+<br/>
+<p><b>Teks – </b>Pada bagian teks silakan diisi dengan deskripsi yang menjelaskan dari 
+iklan Anda tersebut, sehingga orang yang melihat iklan Anda dapat 
+memahaminya dengan mudah. </p>
+<img src="gambar/isi-teks-iklan.png"/>
+<p><b>Destination</b> – Halaman tujuan ketika iklan Anda di klik.
+</p>
+<p><b>Gambar – </b>Silakan pilih gambar yang sesuai dengan iklan yang akan Anda 
+tampikan, Anda dapat memasukkan beberapa gambar yang nantinya dapat 
+digeser ketika iklan tampil. Untuk tampilan iklan yang akan muncul, dapat Anda 
+lihat di bagian samping kanan. </p>
+<img src="gambar/pilih-gambar.png"/><br/>
+<p><b>Judul</b> – Silakan buat judul yang cukup menarik perhatian, sehingga iklan yang Anda 
+buat maksudnya mudah dipahami.
+<br/><br/>
+<b>Keterangan (Optional) </b>– Jika produk yang Anda iklankan berupa barang yang akan 
+dijual, dapat Anda tambahkan keterangan mengenai harga dan sebagainya.
+<br/><br/>
+<b>URL Tujuan </b>– Silakan masukkan URL dari halaman website yang ingin Anda 
+promosikan. Contohnya: <b>http://www.namadomain.com/halaman .</b></p>
+
+<img src="gambar/url-halaman-website.png"/>
+<p><b>Ajakan Bertindak (Optional)</b> – Karena iklan pada tutorial ini bertujuan untuk 
+mengiklankan Ebook untuk diunduh, maka untuk pilihan ini dipilih Unduh, silakan 
+disesuaikan dengan iklan Anda.
+ </p>
+
+<img src="gambar/ajakan-bertindak.png"/><br/>
+<p>Setelah itu silakan klik tombol <b>Lakukan Pemesanan</b> atau Anda dapat memilih <b>Tinjau 
+Pesanan</b> untuk melihat ringkasan dari iklan Anda.
+<br/><br/></p>
+<img src="gambar/lakukan-pesanan.png"/><br/>
+
+<b><p>Tunggu Persetujuan dari Pihak Facebook
+</b>
+Silakan tunggu proses review dari pihak Facebook untuk iklan Anda disetujui <br/><br/></p>
+
+<img src="gambar/tunggu-persetujuan.png"/>
+<p>Silakan untuk Pada langkah ini iklan Anda belum berjalan, karena diperlukan untuk 
+memasukkan metode pembayaran dan memasukkan saldo. Silakan lanjut ke langkah 
+<b>Menambahkan Metode Pembayaran. </b></p>
+
+
+</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div>
+</div>
+<!--=======end pages======-->
+
+<div data-role="page" id="page5" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Metode Pembayaran</h1>
+</div>
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Menambahkan Metode Pembayaran Iklan</h2>
+<p>
+Setelah Anda memasang iklan di Facebook melalui <b>Pengelola Iklan (Ads Manager),</b>
+silakan untuk menambahkan metode pembayaran. Untuk metode pembayaran dapat 
+menggunakan dua cara. Yaitu menggunakan <b>Kartu Kredit/Debit </b>dan <b>Bank Transfer
+(ATM atau Internet Banking).</b></p>
+<p>Pertama-tama silakan buka tautan berikut : 
+<br/><a href="../external.html?link=https://www.facebook.com/ads/manager/billing">https://www.facebook.com/ads/manager/billing</a></p>
+
+<p>
+Setelah itu silakan klik tombol<b> Add Money.</b>
+</p>
+<img src="gambar/menambahkan-metode-pembayaran.png"/>
+<h3>Kartu Kredit dan Kartu Debit </h3>
+<p>Pada contoh ini kami menggunakan Kartu <b>Debit Mandiri.</b></p>
+
+<p><b>Catatan:</b> Saldo rekening Mandiri akan masuk secara otomatis ke saldo billing ads manager 
+Anda dan tidak dapat ditarik kembali. Karenanya, pastikan Anda memasukkan anggaran
+untuk iklan Anda. </p>
+
+<ol>
+<li>Silakan klik tombol Add Money, kemudian pilih Credit or Debit Card dan isikan detail yang ada pada kartu Atm Anda, yaitu:
+</li>
+<ul>
+<p>
+<li><b>Card Number: </b>Nomor pada kartu ATM Mandiri Anda</li>
+<li><b>Expiration:</b> Masa berlakuk kartu ATM Mandiri Anda
+</li>
+<li><b>Security Code: </b>Tiga digit nomor terakhir setelah nomor kartu Atm Anda. </li></p>
+</ul>
+<p>
+<li>Setelah itu silakan klik tombol <b>Continue.</b></li>
+</p>
+<p><img src="gambar/debit-mandiri.png"/></p>
+
+<li>Silakan masukkan sejumlah biaya iklan yang akan Anda habiskan, pada tutorial ini 
+sebesar Rp 775.000,- setelah itu klik tombol <b>Review Payment. </b></li>
+<p>
+<img src="gambar/review-payment.png"/>
+</p>
+<li>Pastikan untuk angka yang Anda masukkan sesuai dengan besar biaya iklan Anda, 
+jika sudah sesuai silakan klik tombol <b>Make Payment.</b>
+ </li>
+<p>
+<img src="gambar/make-payment.png"/>
+</p>
+<li>Saldo terisi secara otomatis. Klik tombol <b>Okay</b> dan iklan akan segera aktif. </li>
+<p>
+<img src="gambar/payment-submit.png"/>
+</p></ol>
+
+<h3>Transfer Bank</h3>
+<p>Metode Bank Transfer dapat melalui transfer melalui ATM atau Internet Banking.
+Catatan: pembayaran tidak bisa dilakukan dengan BCA Internet Banking (KlikBCA).</p>
+<ol>
+<p>
+<li>Silakan pilih <b>Add Money</b>, kemudian pilih <b>ATM dan Bank Transfer</b>, klik <b>Continue.</b></li></p>
+<p><img src="gambar/bank-transfer.png"/></p>
+
+<p><li>Silakan masukkan jumlah biaya iklan yang akan Anda habiskan, pada ebook ini ada 
+sebesar Rp 775.000,- dan klik tombol <b>Review Payment. </b></li></p>
+<p><img src="gambar/review-payment-02.png"/></p>
+
+<p><li> Silakan klik tombol <b>Make Payment </b></li></p>
+<p><img src="gambar/make-payment-02.png"/></p>
+
+
+<p><li>Isikan nama Anda dan klik tombol<b> Continue</b>. Klik <b>Continue </b>sekali lagi, silakan 
+lakukan pembayaran sesuai keterangan yang tampil.
+ </li></p>
+<p><img src="gambar/add-balance-payment.png"/></p>
+
+
+<p><li>Silakan klik tombol<b> kembali, </b>dan akan tampil pesan status pending seperti gambar 
+berikut. </li></p>
+<p><img src="gambar/payment-submit.png"/></p>
+</ol>
+<p>Setelah metode pembayaran sudah Anda tambahkan dan masuk sebagai saldo pada 
+akun ads manager, iklan Anda akan akan aktif secara otomatis. </p>
+
+<p><img src="gambar/iklan-aktif.png"/></p>
+
+</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div></div>
+
+<!-====-end pages-====->
+
+
+<div data-role="page" id="page6" data-theme="d"><div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+
+<h1>Pixel Facebook</h1>
+</div>
+
+<div data-role="content">
+<div id="t">
+
+<h2 class="post-title entry-title">Pixel Melacak Tindakan Pengunjung </h2>
+<p>
+Piksel Facebook adalah tool analytics yang dapat Anda gunakan untuk mengukur 
+efektivitas iklan Facebook dengan memahami tindakan pengunjung website Anda.</p>
+<p>
+Anda dapat menggunakan Piksel Facebook dengan meletakkan kode piksel pada 
+bagian header website Anda. Ketika pengunjung datang dan melakukan tindakan pada 
+website Anda (misalnya membeli barang), Piksel Facebook akan melaporkannya 
+kepada Anda. Dengan cara ini, Anda akan langsung tahu ketika pelanggan melakukan 
+suatu tindakan. Anda pun dapat menjangkau mereka kembali di kemudian hari.
+</p>
+<h2>
+Manfaat Piksel Facebook</h2>
+<p>Ada beberapa manfaat utama yang bisa Anda dapatkan hanya dengan menggunakan 
+Piksel Facebook.</p>
+<ul>
+<li><h3>Menjangkau Orang yang Tepat</h3>
+<p>
+Jangkau pelanggan baru, maupun orang-orang yang mengunjungi halaman 
+tertentu serta melakukan tindakan di website Anda. Kemudian, Anda juga bisa 
+membuat Look alike Audiences untuk menjangkau orang-orang yang memiliki 
+kemiripan dengan para pelanggan Anda.</li></p>
+
+<li><h3>Meningkatkan Penjualan
+</h3><p>
+Buat penawaran otomatis untuk menargetkan orang-orang yang memiliki 
+kemungkinan lebih besar melakukan tindakan seperti membeli produk Anda.</li></p>
+
+<li><h3>Ukur Hasil Iklan Anda
+</h3>
+<p>
+Temukan sendiri faktor penyebab kesuksesan iklan Anda dengan melihat 
+hasilnya secara langsung. Anda bisa melihat laporan konversi serta 
+penjualannya di sini.
+</li></p>
+</ul>
+<p>Setelah Anda berhasil memasang iklan di Facebook, hal yang cukup penting adalah 
+melakukan retargeting atau hanya sekedar melacak pengunjung. Hal tersebut dapat 
+dilakukan dengan menggunakan Piksel Facebook </p>
+
+<h2>Memasang Piksel Facebook </h2>
+<ol>
+
+<li>Silakan buka tab Piksel Facebook di <b>Ads Manager</b> Anda </li>
+<img src="gambar/pixel.png"/>
+
+<li>Setelah itu silakan klik tombol <b>Atur Piksel </b></li>
+<img src="gambar/atur-pixel.png"/>
+
+<li>Klik bagian <b>Salin </b>dan <b>Tempel Kode </b></li>
+<img src="gambar/pasang-kode.png"/>
+
+<li>Silakan salin kode Piksel untuk dipasang pada bagian header website Anda </li>
+<img src="gambar/salin-kode.png"/>
+
+
+<li>Pada contoh ini, website yang kami gunakan adalah <b>CMS WordPress.</b> Silakan 
+masuk ke dashboard admin WordPress, kemudian pilih <b>Tampilan </b>&gt;<b> Penyunting.
+</b> </li>
+<img src="gambar/cms-wordpress.png"/>
+
+<li>Setelah itu, silakan pilih header.php (silakan tekan <b>CTRL+F</b> dan ketikkan <b>header.php</b>
+untuk mencarinya), kemudian paste kode piksel yang sudah di salin pada bagian tag 
+&lt;head&gt;, kemudian tekan tombol <b>Perbaharui Berkas</b> untuk menyimpannya. </li>
+<img src="gambar/header-kode-pixel.png"/>
+
+<li>Silakan kembali lagi ke pengaturan Piksel Facebook dan klik tombol Next </li>
+<img src="gambar/set-pixel.png"/>
+
+</ol>
+
+<h2> Kode Peristiwa untuk Melacak Tindakan Website</h2>
+<p>
+Jika Anda ingin mengetahui laporan mengenai jumlah tindakan pada website Anda, 
+maka Anda harus memasang kode peristiwa pada setiap halaman yang ingin Anda 
+lacak.</p>
+<p>
+Misalnya, Anda ingin mengetahui laporan berapa jumlah orang yang mendaftarkan 
+email mereka pada situs Anda, maka kode peristiwa ditambahkan pada halaman 
+setelah pendaftaran.
+</p>
+<ol>
+<li>Silakan pilih jenis kode peristiwa / event yang sesuai dengan tindakan yang akan 
+dilakukan pada halaman website Anda. 
+Pada contoh ini kami ingin melacak jumlah orang yang mendaftarkan email pada 
+download ebook, dan kami memilih kode <b>Prospek/Leads </b>pada bagian Salin kode 
+peristiwa &gt; <b>Dasar </b></li>
+<img src="gambar/leads-pixel.png"/>
+
+<li>Silakan paste kode tersebut pada setiap halaman website Anda yang ingin Anda 
+ketahui tindakan apa yang dilakukan pengunjung. Pada contoh ini dipaste di halaman 
+setelah selesai memasukkan alamat email dan menekan tombol download. Untuk 
+lebih jelasnya silakan lihat gambar di bawah ini.
+ </li>
+
+<p><b>CATATAN : </b>Pastikan kode peristiwa tersebut diletakkan <b>di bawah tag&lt;/head&gt; </b>pada 
+halaman yang akan dilacak. </p>
+<img src="gambar/kode-pelacakan-pixel.png"/>
+</ol>
+
+<p>Jika Anda menggunakan CMS WordPress, dapat menginstal sebuah plugin untuk 
+menempatkan <b>kode peristiwa </b>pada halaman yang diinginkan, yaitu <b>Facebook 
+Conversion Pixel.
+ </b></p>
+<ul>
+
+<li>Silakan masuk ke dashboard <b>Admin WordPress</b> Anda, kemudian pilih menu <b>Plugin </b>
+&gt;
+
+<b>Tambah baru,</b> kemudian ketikkan pada kolom pencarian <b>Facebook Conversion Pixel. 
+</b>
+Setelah itu klik tombol <b>Instal Sekarang. </b>Setelah itu silakan untuk diaktifkan. </li>
+<p><img src="gambar/plugin-pixel-facebook.png"/></p>
+
+<li>Silakan letakkan kode piksel untuk peristiwa pada halaman atau postingan yang 
+ingin Anda ketahui tindakan dari pengunjung. Untuk kodenya diletakkan pada form 
+<b>Facebook Conversion Pixel</b> yang sudah tersedia, yaitu di bagian bawah dari artikel. </li>
+
+<p><img src="gambar/kode-pixel-conversion.png"/></p>
+
+</ul>
+
+
+<h2>Aktifkan Kode Piksel untuk Iklan
+</h2>
+<p>Setelah Anda berhasil melakukan pengaturan kode piksel pada website, saatnya untuk 
+mengaktifkan kode piksel pada iklan Anda.
+</p>
+<ul>
+<p><li>Silakan masuk ke Pengelola Iklan/Ads Manager, 
+<a href="https://www.facebook.com/ads/manager">
+https://www.facebook.com/ads/manager.</a> </li></p>
+<p><img src="gambar/ads-manager.png"/></p>
+
+<p><li>Silakan pilih <b>tab Iklan </b>kemudian pilih <b>Sunting Iklan </b></li></p>
+
+<p><img src="gambar/sunting-iklan.png"/></p>
+
+<li>Silakan scroll ke bawah, pada bagian<b> Pelacakan</b>, silakan pilih <b>Lacak semua konversi 
+dari piksel Facebook saya</b> dan klik tombol <b>Simpan</b>.
+ </li>
+<p>
+<img src="gambar/aktifkan-kode-pelacakan.png"/></p>
+
+<div class="close">
+
+<h2 align="center">Penutup</h2>
+
+<p>Facebook Ads menawarkan kemudahan beriklan di media sosial. Bahkan, tanpa 
+keahlian pemasaran sebelumnya pun Anda bisa memasang iklan dengan mudah. Soal 
+budget, Anda tidak perlu khawatir. Budget atau anggaran yang Anda alokasikan bisa 
+Anda tentukan sendiri sesuai kebutuhan. 
+</p>
+<p>
+Kampanye iklan yang Anda buat bisa menargetkan siapapun yang menggunakan 
+Facebook. Siapapun, baik itu berdasarkan umur, demografi, maupun hobi atau 
+kesukaan tertentu.
+</p><p>
+Meskipun demikian, kami menyarankan Anda untuk tidak hanya mengandalkan 
+Facebook Ads saja sebagai satu-satunya cara andalan pemasaran online Anda. Masih 
+banyak channel lain yang juga perlu Anda kembangkan, misalnya email marketing, 
+content marketing, maupun affiliate marketing.
+</p>
+<p>Akhir kata, sekian ebook dari kami. Sampai berjumpa di edisi selanjutnya!
+ </p></div>
+</ul>
+
+</div>
+</div>
+
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+<a href="#pageone" data-rel="back" data-icon="arrow-l" data-iconpos="" data-shadow="true" data-iconshadow="true">Kembali</a>
+</div></div>
+
+</body>
+
+</html>
