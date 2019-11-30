@@ -1,0 +1,81 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>E-book Facebook Ads | Masuk</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="classroom/bootstrap/dist/css/bootstrap.min.css"/>
+ 
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="classroom/css/AdminLTE.min.css"/>
+  <link rel="stylesheet" href="classroom/css/login.css"/>
+</head>
+<body>
+
+<div class="login-box">
+    <div class="login-logo">
+      <a href="#">PREMIUM <b>E-BOOK</b></a>
+      <img class="padimg" src="classroom/cover/logo.jpg" width="100%" />
+    </div>
+    <!-- /.login-logo -->
+    <div class="login-box-body">
+      <p class="login-box-msg">Silahkan Masuk Untuk Mulai Belajar Membongkar Panduan Rahasia Sukses Meraih Jutaan Rupiah Dengan Iklan Facebook.</p>
+      <div class="alert alert-danger alert-dismissible" id="verified-alert" style="display: none;">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        
+        <h4 style="color:lightyellow;"><i class="material-icons">
+how_to_vote
+</i> Warning !</h4>
+        E-mail belum diverifikasi, Silahkan cek link di kotak masuk e-mail atau spam folder untuk melakukan proses verifikasi pendaftaran.
+      </div>
+      <form method="post" id="formLogin">
+        <div class="form-group has-feedback field-login-email">
+          <input type="email" class="form-control" name="txtEmail" id="txtEmail-formLogin" placeholder="Email">
+          <span class="glyphicon glyphicon-envelope form-control-feedback"></span><span class="help-block"></span>
+        </div>
+        <div class="form-group has-feedback field-login-password">
+          <input type="password" class="form-control" name="txtPassword" id="txtPassword-formLogin" placeholder="Password">
+          <span class="glyphicon glyphicon-lock form-control-feedback"></span><span class="help-block"></span>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+           <button type="submit" id="btn-signup" class="btn btn-success btn-block btn-flat">Sign Up</button>
+         </div>
+         <div class="col-xs-4">
+           <button type="submit" id="btn-logout" class="btn btn-default btn-block btn-flat">Refresh</button>
+         </div>
+         <!-- /.col -->
+         <div class="col-xs-4 pull-right">
+          <button type="submit" id="btn-signin" class="btn btn-primary btn-block btn-flat has-error">Sign In</button>
+        </div>
+
+        <!-- /.col -->
+      </div>
+    </form>
+    <div class="social-auth-links text-center">
+      <p>- OR -</p>
+      <a href="#" class="btn btn-block btn-social btn-facebook btn-flat" id="btn-login-facebook"><i class="material-icons">
+https
+</i> Sign in using
+      Facebook</a>
+      <a href="#" class="btn btn-block btn-social btn-google btn-flat" id="btn-login-google"><i class="material-icons">
+account_circle
+</i> Sign in using
+      Google Account</a>
+    </div>
+  </div>
+  <!-- /.login-box-body -->
+  <script src="classroom/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="classroom/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="classroom/js/sweetalert.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+<script src="classroom/js/login.js"></script>
+</div>
+</body>
+</html>
